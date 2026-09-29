@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Contato com a Fature Já — suporte, vendas, WhatsApp e criação de conta para emitir notas fiscais.">
+<title>Contato — Fature Já</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%23FF5C00'/%3E%3Cpath d='M9 11h14M9 16h10M9 21h14' stroke='white' stroke-width='2.6' stroke-linecap='round'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="hdr">
+  <div class="container">
+    <a href="index.html" class="logo">
+      <span class="mk"><svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M9 5h10M9 10h10M9 15h6M5 5v4m0 0h3m-3 0H6M5 15h4M5 10v.01M5 15v4"/></svg></span>
+      Fature<b>Já</b>
+    </a>
+    <button class="burger" aria-label="Menu" aria-expanded="false"><span></span><span></span><span></span></button>
+    <nav class="nav">
+      <a class="lk" href="index.html">Início</a>
+      <a class="lk" href="servicos.html">Serviços</a>
+      <a class="lk" href="precos.html">Preços</a>
+      <a class="lk" href="sobre.html">Sobre</a>
+      <a class="lk active" href="contato.html">Contato</a>
+      <div class="acts">
+        <a class="btn ghost sm" href="https://fatureja.enotafiscaleletronica.com.br/fatureja/login" target="_blank" rel="noopener">Entrar</a>
+        <a class="btn primary sm" href="contato.html">Criar conta</a>
+      </div>
+    </nav>
+  </div>
+</header>
+
+<div class="page-hero">
+  <div class="container">
+    <div class="lab">Contato</div>
+    <h1>Fale com a gente <span style="color:var(--blue)">em tempo real</span></h1>
+    <p>Suporte, vendas ou dúvidas sobre emissão: escolha o canal e receba retorno de uma pessoa de verdade.</p>
+  </div>
+</div>
+
+<div class="sec">
+  <div class="container">
+    <div class="contact-grid">
+      <div class="cinfo">
+        <div class="ci rv">
+          <div class="ic"><svg viewBox="0 0 24 24"><path d="M4 7a4 4 0 014-4h8a4 4 0 014 4v10a4 4 0 01-4 4H8a4 4 0 01-4-4z"/><path d="M4 9l8 5 8-5"/></svg></div>
+          <div><h4>E-mail</h4><p>suporte@fatureja.com.br<br>vendas@fatureja.com.br</p></div>
+        </div>
+        <div class="ci rv">
+          <div class="ic"><svg viewBox="0 0 24 24"><path d="M21 2h-6a3 3 0 00-3 3v3H6a3 3 0 00-3 3v9a3 3 0 003 3h12a3 3 0 003-3V2z"/><path d="M21 11h-9m5 7h4"/></svg></div>
+          <h4>Chat e WhatsApp</h4><p>Atendimento em dias uteis<br>das 8h às 18h</p></div>
+        <div class="ci rv">
+          <div class="ic"><svg viewBox="0 0 24 24"><path d="M9 4h6l1 4v6a3 3 0 01-3 3h-2a3 3 0 01-3-3V8z"/><rect x="9" y="2" width="6" height="3" rx="1"/><path d="M4 16l3 3M20 16l-3 3"/></svg></div>
+          <h4>Telefone</h4><p>0800 123 0000 (gratuito)<br>Segunda a sexta, 8h às 18h</p></div>
+        <div class="ci rv">
+          <div class="ic"><svg viewBox="0 0 24 24"><path d="M12 3l7 4v5c0 5-3 7-7 9-4-2-7-4-7-9V7z"/><path d="M9.5 12l2 2 3-3.5"/></svg></div>
+          <h4>Sistema</h4><p>Já é cliente? Acesse a plataforma<br>para emissão e gestão</p></div>
+      </div>
+
+      <div class="form rv">
+        <form id="fcontact" onsubmit="event.preventDefault();document.getElementById('fok').classList.add('show');this.reset();">
+          <div class="row2">
+            <div class="gr"><label for="nome">Nome</label><input id="nome" type="text" placeholder="Seu nome" required></div>
+            <div class="gr"><label for="email">E-mail</label><input id="email" type="email" placeholder="voce@empresa.com.br" required></div>
+          </div>
+          <div class="row2">
+            <div class="gr"><label for="empresa">Empresa</label><input id="empresa" type="text" placeholder="Nome da empresa (opcional)"></div>
+            <div class="gr"><label for="assunto">Assunto</label>
+              <select id="assunto">
+                <option>Criar conta</option>
+                <option>Suporte</option>
+                <option>Planos e preços</option>
+                <option>Outro</option>
+              </select>
+            </div>
+          </div>
+          <div class="gr"><label for="msg">Mensagem</label><textarea id="msg" placeholder="Como podemos ajudar?" required></textarea></div>
+          <button class="btn primary" type="submit" style="width:100%;justify-content:center">Enviar mensagem</button>
+          <div class="ok" id="fok">Recebemos sua mensagem! Nossa equipe vai responder em breve. ✓</div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="sec" style="padding-top:10px">
+  <div class="container">
+    <div class="ctab rv">
+      <h2>Prefere já <span style="color:var(--orange)">começar a faturar</span>?</h2>
+      <p>Crie sua conta e emita a primeira nota em minutos, com o time pronto para te acompanhar.</p>
+      <div class="cta">
+        <a class="btn primary" href="https://fatureja.enotafiscaleletronica.com.br/fatureja/login" target="_blank" rel="noopener">Criar conta gratuita</a>
+        <a class="btn blue" href="precos.html">Ver planos</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<footer class="ftr">
+  <div class="container">
+    <div class="top">
+      <div class="brand">
+        <div class="logo"><span class="mk"><svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M9 5h10M9 10h10M9 15h6M5 5v4m0 0h3m-3 0H6M5 15h4M5 10v.01M5 15v4"/></svg></span>Fature<b>Já</b></div>
+        <p>Plataforma de emissão de notas fiscais eletronicas. Simples como o próprio nome: você fatura, e já.</p>
+      </div>
+      <div class="col">
+        <h5>Plataforma</h5>
+        <a href="servicos.html">Emissão de NF-e</a>
+        <a href="servicos.html">Emissão de NFS-e</a>
+        <a href="servicos.html">Envio automático</a>
+        <a href="precos.html">Planos e preços</a>
+      </div>
+      <div class="col">
+        <h5>Empresa</h5>
+        <a href="sobre.html">Sobre a Fature Já</a>
+        <a href="sobre.html">Missão e valores</a>
+        <a href="contato.html">Fale conosco</a>
+        <a href="https://fatureja.enotafiscaleletronica.com.br/fatureja/login" target="_blank" rel="noopener">Acessar sistema</a>
+      </div>
+      <div class="col">
+        <h5>Contato</h5>
+        <a href="contato.html">Suporte e atendimento</a>
+        <a href="contato.html">Chat e WhatsApp</a>
+        <a href="contato.html">Criar conta gratuita</a>
+        <a href="contato.html">Dúvidas frequentes</a>
+      </div>
+    </div>
+    <div class="bar">
+      <span>© 2026 Fature Já · Emissão de notas fiscais eletrônicas</span>
+      <span>Site institucional · conteúdo ilustrativo</span>
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
